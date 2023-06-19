@@ -5,7 +5,7 @@ from matplotlib.dates import DateFormatter
 import mplcursors
 import math
 
-applicationsToDo = 2000
+applicationsToDo = 1000
 deadline = datetime.datetime(2023, 7, 7)
 today = datetime.datetime.now()
 daysLeft = (deadline-today).days
